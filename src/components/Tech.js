@@ -21,7 +21,7 @@ export const Tech = () => {
         </svg>
       </div>
       <div>
-        <h4 className="text-lg font-bold">Lorem ipsum</h4>
+        <h4 className="text-lg font-bold">Love ipsum</h4>
         <p className="mt-1">
           ddrrrrrrRepudiandae sint consequuntur vel. Amet ut nobis explicabo
           numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.

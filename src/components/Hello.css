@@ -1,0 +1,12 @@
+.text-2xl {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.w-24 {
+  width: 8rem;
+}
+
+.h-24 {
+  height: 8rem;
+}
