@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Hello } from 'components/Hello';
+import { Tech } from 'components/Tech';
+import { Skills } from 'components/Skills';
 
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <Hello />
+      <Tech />
+      <Skills />
     </div>
-  )
-}
+  );
+};
