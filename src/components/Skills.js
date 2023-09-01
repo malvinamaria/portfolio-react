@@ -52,7 +52,7 @@ export const Skills = () => {
                 <ul role="list" className="mt-6 space-y-4c">
                   {navigation.code.map((item) => (
                     <li key={item.name}>
-                      <a className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <a className="text-sm leading-6 text-gray-900 hover:text-gray-900">
                         {item.name}
                       </a>
                     </li>
@@ -68,7 +68,7 @@ export const Skills = () => {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.toolbox.map((item) => (
                     <li key={item.name}>
-                      <a className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <a className="text-sm leading-6 text-gray-900 hover:text-gray-900">
                         {item.name}
                       </a>
                     </li>
@@ -86,7 +86,7 @@ export const Skills = () => {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.more.map((item) => (
                     <li key={item.name}>
-                      <a className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <a className="text-sm leading-6 text-gray-900 hover:text-gray-900">
                         {item.name}
                       </a>
                     </li>
@@ -102,7 +102,7 @@ export const Skills = () => {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.upcoming.map((item) => (
                     <li key={item.name}>
-                      <a className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <a className="text-sm leading-6 text-gray-900 hover:text-gray-900">
                         {item.name}
                       </a>
                     </li>

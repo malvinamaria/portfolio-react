@@ -92,7 +92,7 @@ export const Hello = () => {
           />
         </div>
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+          <p className="mt-2 text-lg leading-8 text-gray-900">
             Hi I'm Malwina a web developer with a master's degree in
             mathematics, I thrive on the combination of logic and creativity
             that programming requires. My goal is to create code that is not
