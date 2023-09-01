@@ -1,0 +1,5 @@
+/* Add hover effect for the icons */
+.icon-button:hover .h-8 {
+  fill: #6366f1; /* Change the fill color to your desired color */
+  transform: scale(1.2);
+}

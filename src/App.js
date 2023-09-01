@@ -3,7 +3,7 @@ import { Hello } from 'components/Hello';
 // import { Tech } from 'components/Tech';
 import { Skills } from 'components/Skills';
 import { Projects } from 'components/Projects';
-// import { Contact } from 'components/Contact';
+import { Contact } from 'components/Contact';
 
 export const App = () => {
   return (
@@ -11,7 +11,7 @@ export const App = () => {
       <Hello />
       <Skills />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 };

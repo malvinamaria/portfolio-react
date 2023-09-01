@@ -7,15 +7,14 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/function-component-definition */
 import React from 'react';
-// import { PhoneIcon } from '@heroicons/react/20/solid';
 import profile_picture from '../assets/profile_picture.jpg';
 import background_image1 from '../assets/background_image1.jpg';
-import { ReactComponent as Logo } from '../assets/linkedin.svg';
-import { ReactComponent as GitHubLogo } from '../assets/github.svg';
+// import { ReactComponent as Logo } from '../assets/linkedin.svg';
+// import { ReactComponent as GitHubLogo } from '../assets/github.svg';
 import './Hello.css';
 
 const profile = {
-  name: 'Malwina Maria Polak',
+  name: 'Malwina Polak',
   email: 'mmpolak@protonmail.com',
   //   src: profile_picture,
   avatar: profile_picture,
@@ -41,35 +40,33 @@ export const Hello = () => {
               alt=""
             />
           </div>
-          <div className="mt-6 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1">
+          <div className="mt-6 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1 pt-3">
             <div className="mt-6 min-w-0 flex-1 sm:hidden md:block">
-              <h1 className="truncate text-2xl font-bold text-gray-900">
+              <h1 className="truncate text-6xl font-bold text-gray-900">
                 {profile.name}
               </h1>
-              <div className="pt-1.5">
-                <p className="text-sm font-medium text-gray-900">
+              <div className="pt-3">
+                <p className="text-lg font-medium text-gray-900">
                   Full Stack Web Developer
                 </p>
               </div>
             </div>
-            <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
+            {/* <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
               <a href="https://www.linkedin.com/in/malwina-maria-polak-327b2093/">
-                <button type="button">
-                  <Logo
-                    className="-ml-0.5 mr-1.5 h-8 w-8 text-gray-400"
-                    aria-hidden="true"
-                  />
-                </button>
+                <Logo
+                  className="-ml-0.5 mr-1.5 h-8 w-8 text-gray-400"
+                  aria-hidden="true"
+                />
               </a>
-              <a href="https://github.com/malvinamaria">
-                <button type="button">
+              <a href="https://github.com/malvinamaria" className="icon-link">
+                <button type="button" className="icon-button">
                   <GitHubLogo
                     className="-ml-0.5 mr-1.5 h-8 w-8 text-gray-400"
                     aria-hidden="true"
                   />
                 </button>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="mt-6 hidden min-w-0 flex-1 sm:block md:hidden">

@@ -13,7 +13,7 @@ export const Projects = () => {
   return (
     <>
       <div className="mx-auto text-center max-w-9xl lg:px-8 lg:pt-24">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl py-8">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl py-8">
           Projects
         </h2>
         {/* // =============================== // Project 1: Wine ===============================  // */}

@@ -36,7 +36,7 @@ const navigation = {
 export const Skills = () => {
   return (
     <div className="mx-auto text-center max-w-9xl lg:px-8 lg:pt-0">
-      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
         Skills
       </h2>
       <div className="mx-auto text-center max-w-9xl lg:px-8 lg:pt-32">
