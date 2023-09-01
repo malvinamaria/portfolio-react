@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* globalStyles.css */
+/* .global-bg-color {
+  background-color: #2b2a2b;
+} */
 
 @tailwind base;
 @tailwind components;
