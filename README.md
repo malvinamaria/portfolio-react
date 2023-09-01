@@ -19,4 +19,4 @@ Alternatively, if you don't want a new git repo on your account;
 1. Start the project: `npm start`
 
 2. ## View it Live
-3. https://candid-choux-b001d3.netlify.app/
+3. https://malwinapolak.netlify.app/
