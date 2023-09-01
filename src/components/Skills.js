@@ -9,29 +9,38 @@ const navigation = {
     { name: 'CSS3' },
     { name: 'JavaScript ES6' },
     { name: 'React' },
+    { name: 'Redux' },
+    { name: 'Tailwind' },
+    { name: 'Node.js' },
+    { name: 'MongoDB' },
+    { name: 'Express' },
   ],
   toolbox: [
     { name: 'Visual Studio Code' },
-    { name: 'Slack' },
-    { name: 'Figma' },
+    { name: 'GitHub' },
+    { name: 'GCP' },
+    { name: 'MongoDB Compass' },
     { name: 'Postman' },
+    { name: 'Figma' },
   ],
   more: [
     { name: 'Agile methodology' },
-    { name: 'Strategy' },
-    { name: 'Concept methodology' },
+    { name: 'Web Accessibility' },
+    { name: 'UX/UI Design' },
+    { name: 'Pair-Programming' },
+    { name: 'Responsive Design' },
   ],
-  upcoming: [{ name: 'TypeSript' }, { name: 'Next' }],
+  upcoming: [{ name: 'TypeSript' }, { name: 'Next.js' }],
 };
 
 export const Skills = () => {
   return (
-    <div className="mx-auto text-center max-w-9xl lg:px-8 lg:pt-32">
+    <div className="mx-auto text-center max-w-9xl lg:px-8 lg:pt-0">
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         Skills
       </h2>
       <div className="mx-auto text-center max-w-9xl lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="xl:grid xl:grid-cols-2 xl:gap-8">
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
