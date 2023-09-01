@@ -38,6 +38,32 @@ export const Projects = () => {
             with objects, arrays, and interfacing with the Document Object Model
             (DOM).
           </p>
+          <div className="flex px-5">
+            <a
+              href="https://exquisite-sprite-592d47.netlify.app/"
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Recommended for security
+            >
+              <button
+                type="button"
+                className="rounded-full bg-indigo-500 px-2.5 py-1 text-xs font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mr-2"
+              >
+                View Live
+              </button>
+            </a>
+            <a
+              href="https://github.com/malvinamaria/project-guess-who"
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Recommended for security
+            >
+              <button
+                type="button"
+                className="rounded-full bg-indigo-500 px-2.5 py-1 text-xs font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                View Code
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       {/* <div className="flex max-w-2xl "> */}
