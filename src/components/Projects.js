@@ -209,9 +209,11 @@ export const Projects = () => {
         <div className="max-w-2xl mt-1text-center leading-6">
           <h4 className="text-lg font-bold lg:pt-1 px-6">Music Releases</h4>
           <p className="mt-2 py-2 text-left max-w-2xl px-6 text-gray-900">
-            My first venture into JavaScript led to the development of an
-            interactive chatbot that offers personalized responses to user
-            input.
+            In my initial exploration of React development, I created a project
+            to display music releases from a Spotify static API. This involved
+            using iterative map() functions and integrating API calls within the
+            React framework. During this experience, I gained a solid grasp of
+            essential concepts like React components, modules, JSX, and props.
           </p>
           <div className="flex px-5">
             <a
